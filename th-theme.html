@@ -189,8 +189,48 @@
     mapColors: ['rgb(241,238,246)','rgb(208,209,230)','rgb(166,189,219)','rgb(116,169,207)','rgb(54,144,192)','rgb(5,112,176)','rgb(3,78,123)']
   };
 
+  Themes.newark =  {
+    foreground1: '#FFFFFF',
+    foreground2: '#FFFFFF',
+    background: '#202326',
+    accent0: '#FFFFFF',
+    accent1: '#1AE58E',  
+    accent2: '#DDF967',  
+    accent3:'#39A4DC',  
+    font: "'franklin-gothic-urw-cond', sans-serif",
+    mapColors: ['rgb(240,249,232)','rgb(204,235,197)','rgb(168,221,181)','rgb(123,204,196)','rgb(67,162,202)','rgb(8,104,172)']
+  };
+
+  Themes.wsj1 =  {
+    foreground1: '#000000',
+    foreground2: '#999999',
+    background: '#FFFFFF',
+    accent0: '#5291df',
+    accent1: '#004eaf',  
+    accent2: '#51a21a',  
+    accent3:'#208911',  
+    accent4:'#a46915',  
+    accent5:'#cc0b24',  
+    accent6:'#880650',  
+    font: "'Chronicle Display', serif"
+    // mapColors: ['rgb(240,249,232)','rgb(204,235,197)','rgb(168,221,181)','rgb(123,204,196)','rgb(67,162,202)','rgb(8,104,172)']
+  };
+
+  Themes.wsj2 =  {
+    foreground1: '#000000',
+    foreground2: '#FFFFFF',
+    background: '#FFFFFF',
+    accent0: '#880650',
+    accent1: '#cc0b24',  
+    accent2: '#a46915',  
+    accent3:'#22688e',  
+    accent4:'#187226',  
+    font: "'Chronicle Display', serif"
+    // mapColors: ['rgb(240,249,232)','rgb(204,235,197)','rgb(168,221,181)','rgb(123,204,196)','rgb(67,162,202)','rgb(8,104,172)']
+  };
+
   // ASSIGN THEME
-  CoreStyle.g.theme = Themes.belize;
+  CoreStyle.g.theme = Themes.berlin;
 
   CoreStyle.g.theme.allAccents = [CoreStyle.g.theme.accent0, CoreStyle.g.theme.accent1,CoreStyle.g.theme.accent2,
                                   CoreStyle.g.theme.accent3, CoreStyle.g.theme.accent4, CoreStyle.g.theme.accent5,
@@ -213,28 +253,34 @@
     padding: 0;
   }
 
+ .title {
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 1;
+ }
+
  .headline {
     font-size: 1.7em;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .mainpoint {
     font-size: 1.2em;
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .submainpoint { 
     font-size: 1.12em;
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .subpoint {
     font-size: 1.0em;
     font-weight: 300;
-    line-height: 1.1;
+    line-height: 1;
   }
 
   .chart {
